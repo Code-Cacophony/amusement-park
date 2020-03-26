@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="css/styles.css">
+  <head>    
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="UTF-8">
@@ -10,17 +10,33 @@
     <title>Amusement Park</title>
   </head>
   <body>
-    <h1>United States Voting Resource</h1>
-    <img src="img/history.jpg" id="history">
-    <h2>Please enter your age</h2>
+    <h2>Please enter your height</h2>
     
     <form id="form-height">
-      <div class="form-group">
-        <label for="height">Height</label>
-        <input type="text" name="form-control" id="height">        
+      <div class="form-group">                
+        <span>
+          <label for="height-f">Feet</label>
+          <input type="text" name="form-control" id="height-f">
+          <label for="height-i">Inches</label>
+          <input type="text" name="form-control" id="height-i">  
+        </span>      
       </div>
+      <p>The height you entered is: <span id="output"></span></p>  
       <button type="submit" class="btn">Enter</button>
-    
+      <p>The rollercoasters you can ride are: <span id="output"></span></p>  
+    </form>
+    <ol id="rides">
+      <li class="ride-short">The Gut-slusher</li>
+      <li class="ride-tall">Existential Horror: The Ride</li>
+      <li class="ride-tall">2016 Simulator</li>
+      <li class="ride-short">The Unnamable One</li>
+      <li class="ride-short">Gorenoise</li>
+      <li class="ride-tall">Death Grips: The Rollercoaster</li>
+      <li class="ride-short">Death Penalty</li>
+      <li class="ride-tall">*High pitched squealing noise*</li>
+      <li class="ride-tall">A room where you're forced to watch the climax to Requiem for A Dream on loop while injected with DMT</li>
+      <li class="ride-short">A tunnel ride where you're surrounded by screens showing snuff films with a high frequency pitch playing the whole time</li>
+    </ol>
     
   </body>
 </html>

@@ -1,7 +1,8 @@
-#minor {
-  display: none;
+
+#highlight{
+  background-color: beige;
 }
 
-#adult {
+#rides{
   display: none;
 }
